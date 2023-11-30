@@ -1,0 +1,7 @@
+.header, .content {
+    display: flex;
+}
+
+.image-hero {
+    width: 300px;
+}
