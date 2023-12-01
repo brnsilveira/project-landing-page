@@ -59,7 +59,7 @@ body {
     max-width: 450px;
 }
 
-button {
+.hero-button {
     width: 100px;
     padding: 8px 9px;
     border-radius: 8px;
