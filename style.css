@@ -2,17 +2,21 @@ body {
     font-family: 'Roboto';
 }
 
-.hero {
+.hero, .information {
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+}
+
+.hero {
     background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 0;
 }
 
@@ -33,6 +37,7 @@ body {
 
 .content {
     display: flex;
+    flex-wrap: wrap-reverse;
     gap: 28px;
     padding: 100px 0;
 }
@@ -72,4 +77,33 @@ ul {
 
 .img-hero {
     height: 205px;
+}
+
+.information {
+    padding: 50px 0;
+    gap: 45px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 20px;
+    width: 250px;
+}
+
+.subtext {
+    margin: 10px 0;
 }
