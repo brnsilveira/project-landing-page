@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto';
 }
 
-.hero, .information {
+.hero, .information, .quote {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -106,4 +106,26 @@ ul {
 
 .subtext {
     margin: 10px 0;
+}
+
+.quote {
+    padding: 130px 0;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container {
+    max-width: 700px;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
 }
