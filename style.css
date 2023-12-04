@@ -163,3 +163,12 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px 40px;
+}
+
+a {
+    color: #E5E7EB;
+}
