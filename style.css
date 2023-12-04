@@ -26,7 +26,7 @@ body {
 
 
 #audio-icon {
-    color: #F9FAF8;
+    color: #73d4fd;
     font-size: 35px;
     cursor: pointer;
 }
@@ -36,7 +36,10 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    background-color: rgb(27, 30, 35, 0.5);
+    border-radius: 70px;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
 .logo-container {
@@ -50,13 +53,14 @@ body {
     border-radius: 100px;
 }
 
-.links, .hero-secondary, .call-text {
+.hero-secondary, .call-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #73d4fd;
 }
 
-.links {
+.link-container {
     display: flex;
+    padding-right: 20px;
     gap: 16px;
 }
 
@@ -98,6 +102,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+#links {
+    color: #73d4fd;
+    font-weight: bold;
 }
 
 .img-hero {
@@ -190,6 +199,11 @@ ul {
     width: 150px;
 }
 
-a {
+#author {
     color: #E5E7EB;
+}
+
+.footer {
+    padding: 30px;
+    background-color: #40265c;
 }
