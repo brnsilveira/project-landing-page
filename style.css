@@ -27,20 +27,27 @@ body {
 
 #audio-icon {
     color: #F9FAF8;
+    font-size: 35px;
     cursor: pointer;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     padding: 20px 0;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#logo {
+    width: 80px;
+    border-radius: 100px;
 }
 
 .links, .hero-secondary, .call-text {
