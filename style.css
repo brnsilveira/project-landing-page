@@ -143,12 +143,21 @@ ul {
 .info-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 250px;
 }
 
 .info-img {
     border-radius: 8px;
+}
+
+.test {
+    height: 140px;
+    width: 140px;
+    border: 4px solid #9e2281;
+    border-radius: 8px;
+    background-color: #ec8d7525;
 }
 
 .subtext {
